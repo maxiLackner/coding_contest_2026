@@ -1,0 +1,2 @@
+{"job_id": "1165", "agent": "opus_cycle_search", "cmd": "sbatch --wait --mem=16G --cpus-per-task=12 --time=00:30:00 job_big.sh (cycle_search.py 3-large 256; 4-enormous 128; 2-medium 2048x2 seeds)", "submitted_utc": "2026-10-23T13:39:14Z", "mem": "16G", "gpus": 0}
+{"job_id":"1166","agent":"sonnet_line_painter","cmd":"python3 /tmp/claude-1000/-home-maxl-progress-code-coding-contest-2026/19883bbb-8960-48e3-804c-47894f87baf3/scratchpad/level6/sonnet/run_all.py","submitted_utc":"2026-10-23T13:40:33Z","mem":"8G","gpus":0}

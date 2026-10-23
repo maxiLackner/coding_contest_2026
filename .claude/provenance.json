@@ -1,0 +1,5 @@
+{"results": [
+  {"glob": "level-6/out_level-6_*.txt",
+   "mode": "embedded",
+   "fields": {"git_commit": null, "git_dirty": null, "device": null, "model_class": null, "seed": null, "config": null}}
+]}
