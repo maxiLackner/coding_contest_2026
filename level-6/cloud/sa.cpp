@@ -1,4 +1,17 @@
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <array>
+#include <atomic>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <fstream>
+#include <iostream>
+#include <random>
+#include <set>
+#include <sstream>
+#include <string>
+#include <thread>
+#include <vector>
 using namespace std;
 typedef vector<array<char,6>> Prog;
 struct Pat{int r,K;vector<int> mat,skirt;int W,ncell;vector<array<vector<int>,1>> dummy;
