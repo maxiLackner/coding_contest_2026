@@ -34,3 +34,7 @@
 {"job_id":"1193","agent":"main_session","cmd":"scancel wE_p2 (user authorised; GPU job fable_pack2 blocked by CPU/mem; period-2 covered by CP-SAT worker F)","submitted_utc":"2026-10-23T14:17:45Z"}
 {"job_id": "1204", "agent": "fable_gpu_search", "cmd": "sbatch run_packed3.sbatch after 1201 (4 procs general beam skirt100 w1280 per-submission order: large x2, enormous x2; seeds merged at start)", "submitted_utc": "2026-10-23T14:18:46Z", "mem": "14G", "gpus": 1}
 {"job_id":"1206","agent":"fresh_sonnet","cmd":"sbatch --wait run.sh (SA post-opt)","submitted_utc":"2026-10-23T14:20:16Z","mem":"8G","gpus":0}
+{"job_id":"1207","agent":"worker_F_cpsat_medium","cmd":"sbatch --wait worker_F/job_pfx_even.sh (cpsat_prefix.py prefix+cycle m in {1,2}, even ranks, 60s/pattern)","submitted_utc":"2026-10-23T14:21:04Z","mem":"4G","gpus":0}
+{"job_id":"1208","agent":"worker_F_cpsat_medium","cmd":"sbatch --wait worker_F/job_pfx_odd.sh (cpsat_prefix.py prefix+cycle m in {1,2}, odd ranks, 60s/pattern)","submitted_utc":"2026-10-23T14:21:04Z","mem":"4G","gpus":0}
+{"job_id":"1209","agent":"worker_F_cpsat_medium","cmd":"sbatch --wait worker_F/job_pfx_odd2.sh (cpsat_prefix.py odd ranks, 2 cpu, 15 min; replaces cancelled 1208)","submitted_utc":"2026-10-23T14:22:34Z","mem":"1G","gpus":0}
+{"job_id":"1210","agent":"fresh_opus","cmd":"pool_driver.py 20000 3 3-large,4-enormous","submitted_utc":"2026-10-23T14:27:50Z","mem":"8G","gpus":0}
